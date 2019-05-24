@@ -32,7 +32,7 @@ class DBOpenHelper(context : Context, factory : SQLiteDatabase.CursorFactory?) :
     }
     companion object {
         private val DATABASE_VERSION = 1
-        private val DATABASE_NAME = "mindorksName.db"
+        private val DATABASE_NAME = "name.db"
         val TABLE_NAME = "name"
         val COLUMN_ID = "_id"
         val COLUMN_NAME = "username"
